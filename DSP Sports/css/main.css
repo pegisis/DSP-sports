@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+body,html{
+	background: #fff;
+	margin:0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header{
+	margin-top: 0px;
+	height: 60px;
+	background: #7D1128;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 2;
+}
+.logo{
+	height: 40px;vertical-align: middle;width: auto;margin-top: -5px;
+}
+.logo1{
+	   float: left;
+	   padding: 5px;
+	   border: solid;
+	   margin-left: 50px;
+}
+.main{
+	padding: 5px;
+
+}
+.mainimg:hover{
+	     background: #fff;
+	     color: #000;
+
+}
+.block1{
+	width:30%;
+	color:#fff;
+	text-align: center;
+	padding:5px;
+}
+.block1 .title{
+	line-height:60px;
+	font-size: 20px;
+	margin:40px;
+	margin-left: 10px;
+}
+
+.block1 .title a{
+	color: #fff;
+	text-decoration: none;
+}
+.block2{
+	width:70%;
+	color:#fff;
+	padding:5px;
+}
+.block2 .nav{
+	margin:5px;
+}
+.block2 .nav a{
+	color: #C3B299;
+	text-decoration: none;
+}
+.block2 .nav a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+.container h1{
+	margin-left: 15px;
+
+}
+.container .menu-content {
+	width:100%;
+	text-align: left;
+	position: relative;
+	margin-left: 10px;
+}
+.slider {
+	    float:right;
+        margin: 2px 175px 0px 0px;
+        padding: 5px;
+
+}
+ 
+footer {
+  background-color: #CBD4C2;
+  padding: 5px;
+  text-align: center;
+  color: #815355;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
